@@ -1,4 +1,5 @@
 import pyautogui as py
+import os
 import time
 
 
@@ -33,5 +34,10 @@ elif op!=1:
 while True:
     # Get the current mouse position
     x, y = py.position()
+    # # Print the current mouse position
+    print(f"Current mouse position: ({x}, {y})")
+    print("Clicking...")
     # Click at the current mouse position
     py.click(x, y)
+    # Clear the terminal screen
+    os.system('cls')
