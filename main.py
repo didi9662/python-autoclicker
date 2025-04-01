@@ -16,6 +16,7 @@ print ("2. show help")
 print ("3. exit")
 op=int(input("choose an option: "))
 if op==2:
+    os.system('cls')
     print ("This is a simple Python-based autoclicker.")
     print ("")
     print ("Features:")
@@ -25,7 +26,7 @@ if op==2:
     print ("Instructions:")
     print ("- Run the script and choose an option from the menu.")
     print ("- To stop the autoclicker, close the programe.")
-    time.sleep(10)
+    os.system('pause')
     exit()
 elif op==3:
     exit()
