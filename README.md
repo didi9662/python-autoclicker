@@ -21,5 +21,4 @@ This repository contains a Python-based autoclicker script that automates mouse 
 ## Installation
 
 1. Make sure you have Python 3 installed.
-2. Run `install.bat`.
-3. Follow the instructions.
+2. Run **pip install pyautogui**
