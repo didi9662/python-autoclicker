@@ -1,6 +1,7 @@
 import pyautogui as py
 import os
 import time
+os.system('title autoclicker')
 
 
 print (" █████╗ ██╗   ██╗████████╗ ██████╗  ██████╗██╗     ██╗ ██████╗██╗  ██╗███████╗██████╗ ")
